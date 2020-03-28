@@ -6,12 +6,12 @@ spring:
 ---
 spring: 
   profiles: dev
-    application:
+    application: 
       name: microcloud-config-dev
 
 ---
 spring: 
   profiles: test
-    application:
+    application: 
       name: microcloud-config-test
 #utf8格式
