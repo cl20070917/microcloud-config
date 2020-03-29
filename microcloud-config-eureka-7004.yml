@@ -3,7 +3,7 @@ spring:
     active: dev
 ---
 server:
-  port: 7004
+  port: 7002
 spring:
   profiles: dev
   application:
@@ -11,12 +11,12 @@ spring:
 
 eureka:
   instance:
-    hostname: eureka7004.com
+    hostname: eureka7002.com
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://eureka7004.com:7004/eureka/
+      defaultZone: http://eureka7002.com:7002/eureka/ 
 
 ---
 server:
